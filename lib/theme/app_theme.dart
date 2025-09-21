@@ -91,7 +91,8 @@ class AppTheme {
     ),
 
     // Card theme for trip cards and content containers
-    cardTheme: CardTheme(
+    (
+    cardTheme: CardThemeData(
       color: surfaceGray,
       elevation: 0,
       shadowColor: shadowLight,
@@ -320,7 +321,7 @@ class AppTheme {
     ),
 
     // Tab bar theme for navigation tabs
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryBlue,
       unselectedLabelColor: textSecondary,
       indicatorColor: primaryBlue,
@@ -472,7 +473,7 @@ class AppTheme {
         size: 24,
       ),
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: surfaceDark,
       elevation: 0,
       shadowColor: shadowDark,
@@ -675,7 +676,7 @@ class AppTheme {
         color: backgroundWhite,
       ),
     ),
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryBlue,
       unselectedLabelColor: textSecondaryDark,
       indicatorColor: primaryBlue,
